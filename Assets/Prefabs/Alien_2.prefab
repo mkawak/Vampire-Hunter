@@ -155,6 +155,11 @@ MonoBehaviour:
   yScale: 22
   zScale: 1
   attackRange: 9.5
+  itemDrops:
+  - {fileID: 5774280601767961001, guid: cab4b76a42f40804ba8b07e30dda2a32, type: 3}
+  - {fileID: 11845327965634147, guid: bf9c3e1ea4c3c7b4791b672f55e899cc, type: 3}
+  - {fileID: 8086501472068981186, guid: 2bb176abe7ae45a438e796f2a79c2f9e, type: 3}
+  - {fileID: 7872602544680521875, guid: 361431bd62e941c4d932036e5d4533ec, type: 3}
 --- !u!95 &4658814285705128321
 Animator:
   serializedVersion: 5

@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 5774280601767961002}
   - component: {fileID: 5774280601767961003}
   - component: {fileID: 5774280601767961000}
+  - component: {fileID: -6343510145843796435}
   - component: {fileID: 5774280601767961005}
   m_Layer: 0
   m_Name: RedXP
@@ -74,7 +75,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 5
   m_Sprite: {fileID: -1127193301, guid: 7e94711d85e75b64e99f033450b17698, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -112,6 +113,19 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.07, y: 0.1}
   m_EdgeRadius: 0
+--- !u!114 &-6343510145843796435
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5774280601767961001}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3cbeb26309ae4cf4f832b1ec4a3b395a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dropForce: 3
 --- !u!114 &5774280601767961005
 MonoBehaviour:
   m_ObjectHideFlags: 0
